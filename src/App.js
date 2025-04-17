@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Outlet } from "react-router-dom";
-import NavBar from "./components/NavBar";
+import NavBar from "./components/NavBar"
 
 function App() {
   const [users, setUsers] = useState([]);
@@ -21,3 +21,4 @@ function App() {
     </>
   );
 }
+export default App;
